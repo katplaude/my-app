@@ -1,0 +1,218 @@
+:root {
+    font-size: 16px;
+}
+
+@keyframes flyAround1 {
+    0% {
+        transform: translate(0, 0);
+    }
+    25% {
+        transform: translate(6.25rem, -3.125rem);
+    }
+    50% {
+        transform: translate(-6.25rem, 3.125rem);
+    }
+    75% {
+        transform: translate(3.125rem, 6.25rem);
+    }
+    100% {
+        transform: translate(-3.125rem, -6.25rem);
+    }
+}
+
+@keyframes flyAround2 {
+    0% {
+        transform: translate(0, 0);
+    }
+    25% {
+        transform: translate(-6.25rem, 3.125rem);
+    }
+    50% {
+        transform: translate(6.25rem, -3.125rem);
+    }
+    75% {
+        transform: translate(-3.125rem, -6.25rem);
+    }
+    100% {
+        transform: translate(3.125rem, 6.25rem);
+    }
+}
+
+@keyframes flyAround3 {
+    0% {
+        transform: translate(0, 0);
+    }
+    25% {
+        transform: translate(3.125rem, 6.25rem);
+    }
+    50% {
+        transform: translate(-3.125rem, -6.25rem);
+    }
+    75% {
+        transform: translate(6.25rem, -3.125rem);
+    }
+    100% {
+        transform: translate(-6.25rem, 3.125rem);
+    }
+}
+
+@keyframes flyAround4 {
+    0% {
+        transform: translate(0, 0);
+    }
+    25% {
+        transform: translate(-3.125rem, -6.25rem);
+    }
+    50% {
+        transform: translate(3.125rem, 6.25rem);
+    }
+    75% {
+        transform: translate(-6.25rem, 3.125rem);
+    }
+    100% {
+        transform: translate(6.25rem, -3.125rem);
+    }
+}
+
+@keyframes flyAround5 {
+    0% {
+        transform: translate(0, 0);
+    }
+    25% {
+        transform: translate(6.25rem, 3.125rem);
+    }
+    50% {
+        transform: translate(-6.25rem, -3.125rem);
+    }
+    75% {
+        transform: translate(3.125rem, -6.25rem);
+    }
+    100% {
+        transform: translate(-3.125rem, 6.25rem);
+    }
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+}
+
+.helpIcon {
+    position: absolute;
+    width: 50rem;
+    height: 29.53125rem;
+    left: 16.5625rem;
+    top: 5.03125rem;
+    animation: bounce 1s infinite;
+}
+
+.badGuy {
+    position: absolute;
+    width: 12rem;
+    height: 17rem;
+    left: 2.4375rem;
+    top: 28.5rem;
+    animation: flyAround1 10s infinite linear;
+}
+
+.badGuy1 {
+    position: absolute;
+    width: 10rem;
+    height: 15rem;
+    left: 54.5rem;
+    top: 20.625rem;
+    animation: flyAround2 10s infinite linear;
+}
+
+.badGuy2 {
+    position: absolute;
+    width: 11rem;
+    height: 16rem;
+    left: 37.6875rem;
+    top: 37rem;
+    transform: scaleX(-1);
+    animation: flyAround3 10s infinite linear;
+}
+
+.badGuy3 {
+    position: absolute;
+    width: 9rem;
+    height: 13rem;
+    left: 51.6875rem;
+    top: 70.8125rem;
+    z-index: 1;
+    animation: flyAround4 10s infinite linear;
+}
+
+.badGuy4 {
+    position: absolute;
+    width: 13rem;
+    height: 19rem;
+    left: 49.125rem;
+    top: 101.4375rem;
+    transform: scaleX(-1);
+    z-index: 2;
+    animation: flyAround5 10s infinite linear;
+}
+
+.mika {
+    position: absolute;
+    width: 59.6875rem;
+    height: 77.5rem;
+    left: -7.25rem;
+    top: 42.5rem;
+}
+
+.h-first {
+    position: absolute;
+    width: 11.875rem;
+    height: 11.875rem;
+    left: 18.125rem;
+    top: 34.6875rem;
+    z-index: 1;
+    animation: flyAround1 10s infinite linear;
+}
+
+.e-first {
+    position: absolute;
+    width: 15.625rem;
+    height: 16.4375rem;
+    left: 46.4375rem;
+    top: 93.875rem;
+    z-index: 1;
+    animation: flyAround2 10s infinite linear;
+}
+
+.l-first {
+    position: absolute;
+    width: 17.5rem;
+    height: 20.625rem;
+    left: 45.5rem;
+    top: 40.6875rem;
+    z-index: 1;
+    animation: flyAround3 10s infinite linear;
+}
+
+.l1-first {
+    position: absolute;
+    width: 11.5625rem;
+    height: 11.75rem;
+    left: 40.125rem;
+    top: 70.8125rem;
+    z-index: 2;
+    animation: flyAround4 10s infinite linear;
+}
+
+.o-first {
+    position: absolute;
+    width: 13.75rem;
+    height: 28.625rem;
+    left: 11.25rem;
+    top: 49.1875rem;
+    z-index: 1;
+    animation: flyAround5 10s infinite linear;
+}
