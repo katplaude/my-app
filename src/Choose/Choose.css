@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+:root {
+    font-size: 16px;
+}
+
+.juki-text {
+    position: absolute;
+    width: 19.44rem;
+    height: 10.75rem;
+    left: 6.44rem;
+    top: 63.38rem;
+    font-family: 'Titan One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9.375rem;
+    line-height: 10.75rem;
+    color: #FFFFFF;
+    z-index: 1;
+}
+
+.robin-text {
+    position: absolute;
+    width: 28.06rem;
+    height: 9.83rem;
+    left: 35.25rem;
+    top: 68.75rem;
+    font-family: 'Titan One', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9.06rem;
+    line-height: 10.38rem;
+    z-index: 1;
+    color: #FFFFFF;
+}
+
+.niki-text {
+    position: absolute;
+    width: 22.56rem;
+    height: 8.37rem;
+    left: 5.88rem;
+    top: 95.13rem;
+    font-family: 'Titan One', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9.06rem;
+    line-height: 10.38rem;
+    z-index: 1;
+    color: #FFFFFF;
+}
+
+.rectangles {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.mikaPfp {
+    z-index: 1;
+}
+
+.juki {
+    position: absolute;
+    width: 20.63rem;
+    height: 20.5rem;
+    left: 9rem;
+    top: 45.81rem;
+    z-index: 1;
+}
+
+.robin {
+    position: absolute;
+    width: 20.63rem;
+    height: 20.5rem;
+    left: 41.19rem;
+    top: 51.81rem;
+    z-index: 1;
+}
+
+.niki {
+    position: absolute;
+    width: 20.63rem;
+    height: 20.5rem;
+    left: 5.88rem;
+    top: 78.56rem;
+    z-index: 1;
+}
+
+.forParents {
+    position: absolute;
+    width: 37.19rem;
+    height: 39.75rem;
+    left: 30.31rem;
+    top: 80.31rem;
+    z-index: 1;
+}
+
+.mikaSpeechBox {
+    position: absolute;
+    width: 44.19rem;
+    height: 19rem;
+    left: 3.94rem;
+    top: 16.94rem;
+    background: #EF9636;
+    border-radius: 3.75rem;
+    z-index: 1;
+}
+
+.mikaSpeech {
+    position: fixed;
+    width: 40.63rem;
+    height: 13.31rem;
+    left: 6.63rem;
+    top: 19rem;
+    text-align: left;
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 3.75rem;
+    color: #FFFFFF;
+    z-index: 1;
+}
+
+.rectangle1 {
+    position: absolute;
+    width: 68.73rem;
+    height: 59.77rem;
+    left: -11.49rem;
+    top: -13.25rem;
+    background: rgba(255, 255, 255, 0.36);
+    border-radius: 28.13rem;
+    transform: rotate(15.97deg);
+}
+
+.rectangle2 {
+    position: absolute;
+    width: 68.73rem;
+    height: 59.77rem;
+    left: 22.45rem;
+    top: 56.94rem;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 28.13rem;
+    transform: rotate(15.97deg);
+}

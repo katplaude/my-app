@@ -2,6 +2,10 @@ import './App.css'
 import FirstPage from "./FirstPage/FirstPage.jsx";
 import logo from './assets/logo.png';
 import Mika from "./Mika/Mika.jsx";
+import Juki from "./Juki/Juki.jsx";
+// import Robin from "./Robin/Robin.jsx";
+// import Niki from "./Niki/Niki.jsx";
+import Choose from "./Choose/Choose.jsx"
 import { Route, Switch, useLocation } from "wouter";
 
 function App() {
@@ -22,9 +26,23 @@ function App() {
                 <Route path="/mika">
                     <Mika />
                 </Route>
+                <Route path="/choose">
+                    <Choose />
+                </Route>
+                <Route path="/juki">
+                    <Juki />
+                </Route>
+                {/*<Route path="/robin">*/}
+                {/*    <Robin />*/}
+                {/*</Route>*/}
+                {/*<Route path="/niki">*/}
+                {/*    <Niki />*/}
+                {/*</Route>*/}
             </Switch>
             <img className="logo" src={logo} alt="Logo" />
+
         </div>
+
     );
 }
 
