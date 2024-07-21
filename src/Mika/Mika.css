@@ -57,6 +57,8 @@
     left: 2.4375rem;
     top: 28.5rem;
     animation: flyAround1 10s infinite linear;
+    z-index: 2;
+
 }
 
 .badGuy1 {
@@ -66,6 +68,8 @@
     left: 54.5rem;
     top: 20.625rem;
     animation: flyAround2 10s infinite linear;
+    z-index: 1;
+
 }
 
 .badGuy2 {
@@ -76,7 +80,11 @@
     top: 37rem;
     transform: scaleX(-1);
     animation: flyAround3 10s infinite linear;
+    z-index: 2;
+
 }
+
+
 
 .badGuy3 {
     position: absolute;
@@ -86,6 +94,7 @@
     top: 70.8125rem;
     z-index: 1;
     animation: flyAround4 10s infinite linear;
+
 }
 
 .badGuy4 {
@@ -97,28 +106,7 @@
     transform: scaleX(-1);
     z-index: 2;
     animation: flyAround5 10s infinite linear;
-}
 
-.cloud {
-    position: absolute;
-    width: 57.1875rem;
-    height: 35.1875rem;
-    left: -14rem;
-    top: 88.625rem;
-}
-
-.cloud1 {
-    position: absolute;
-    width: 57.1875rem;
-    height: 35.1875rem;
-    left: 29.25rem;
-    top: 50.6875rem;
-}
-.cloud-container{
-    height: 100vh;
-    width: 100vw;
-    position: relative;
-    /*overflow: hidden;*/
 }
 
 .speechBox {
@@ -127,9 +115,9 @@
     height: 19rem;
     left: 3.9375rem;
     top: 16.9375rem;
-
     background: #EF9636;
     border-radius: 3.75rem;
+    z-index: 2;
 }
 
 .speech1 {
@@ -138,119 +126,46 @@
     height: 13.3125rem;
     left: 7.25rem;
     top: 19.75rem;
-
     font-family: 'Quicksand', serif;
     font-style: normal;
     font-weight: 700;
     font-size: 3.125rem;
     line-height: 3.875rem;
     text-align: left;
-;
-
     color: #FFFFFF;
 }
 
-.pen{
+.root{
+    left: 7.25rem;
+    top: 19.75rem;
 
-    position: fixed;
-    width: 100px;
-    height: 100px;
-    left: 629px;
-    top: 442px;
-    z-index: 1;
 }
 
-.h{
+.tap-button {
     position: absolute;
-    width: 11.875rem;
-    height: 11.875rem;
-    left: 18.125rem;
-    top: 34.6875rem;
-    z-index: 1;
-}
-
-.e{
-    position: absolute;
-    width: 15.625rem;
-    height: 16.4375rem;
-    left: 46.4375rem;
-    top: 93.875rem;
-    z-index: 1;
-}
-
-.l{
-    position: absolute;
-    width: 17.5rem;
-    height: 20.625rem;
-    left: 45.5rem;
-    top: 40.6875rem;
-    z-index: 1;
-}
-
-.l1{
-    position: absolute;
-    width: 11.5625rem;
-    height: 11.75rem;
-    left: 40.125rem;
-    top: 70.8125rem;
+    width: 707px;
+    height: 304px;
+    left: 195px;
+    top: 1457px;
     z-index: 2;
+    border: none;
+    background: transparent;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.o {
-    position: absolute;
-    width: 13.75rem;
-    height: 28.625rem;
-    left: 11.25rem;
-    top: 49.1875rem;
-    z-index: 1;
+.tap-button img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
 }
 
-.circleH{
-    position: absolute;
-    width: 190px;
-    height: 190px;
-    left: 71px;
-    top: 1422px;
-    background: #EF9636;
-    border-radius: 50%;
-}
-
-.circleE{
-    position: absolute;
-    width: 250px;
-    height: 250px;
-    left: 247px;
-    top: 1380px;
-    border-radius: 50%;
-    background: #EF9636;
-}
-
-.circleL{
-    position: absolute;
-    width: 280px;
-    height: 280px;
-    left: 425px;
-    top: 1363px;
-    border-radius: 50%;
-    background: #EF9636;
-}
-
-.circleL1{
-    position: absolute;
-    width: 185px;
-    height: 185px;
-    left: 632px;
-    top: 1419px;
-    border-radius: 50%;
-    background: #EF9636;
-}
-
-.circleO{
-    position: absolute;
-    width: 220px;
-    height: 220px;
-    left: 788px;
-    top: 1400px;
-    background: #EF9636;
-    border-radius: 50%;
+.cloudContainer {
+    height: 20vh;
+    width: 100vw;
+    position: relative;
+    z-index: 0;
+    /*overflow: hidden;*/
 }

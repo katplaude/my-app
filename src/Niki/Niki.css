@@ -1,0 +1,64 @@
+.nikiPfp {
+    position: absolute;
+    width: 20.625rem;
+    height: 20.5rem;
+    left: 44.6875rem;
+    top: 6.75rem;
+}
+
+.cat {
+    position: absolute;
+    width: 30.3125rem;
+    height: 30.3125rem;
+    left: 2.25rem;
+    top: 41.4375rem;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.mouse {
+    position: absolute;
+    width: 30.3125rem;
+    height: 30.3125rem;
+    left: 35rem;
+    top: 41.4375rem;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.dog {
+    position: absolute;
+    width: 30.3125rem;
+    height: 30.3125rem;
+    left: 18.5625rem;
+    top: 75.8125rem;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.nikiSpeechBox {
+    position: absolute;
+    width: 44.19rem;
+    height: 13.25rem;
+    left: 3.94rem;
+    top: 16.94rem;
+    background: #EF9636;
+    border-radius: 3.75rem;
+    z-index: 1;
+}
+
+.nikiSpeech1 {
+    position: fixed;
+    width: 40.63rem;
+    height: 13.31rem;
+    left: 6.63rem;
+    top: 19rem;
+    text-align: left;
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 3.75rem;
+    color: #FFFFFF;
+    z-index: 1;
+}

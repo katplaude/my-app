@@ -1,10 +1,17 @@
 import React, { useState, useRef } from 'react';
+import { useLocation } from 'wouter';
 import jukiPfp from '../assets/juki.png';
 import Draggable from 'react-draggable';
 import './Juki.css';
+import kiwi from '../assets/kiwi.png';
+import orange from '../assets/orange.png';
+import tapButton from '../assets/tapButton.png'
 
 function Juki() {
     const [message, setMessage] = useState("Show me what will happen if you mix those colors!");
+    const [showFruits, setShowFruits] = useState(false);
+    const [showButton, setShowButton] = useState(false);
+    const [location, setLocation] = useLocation();
     const whiteCircleRef = useRef(null);
     const yellowCircleRef = useRef(null);
     const redCircleRef = useRef(null);
@@ -37,10 +44,26 @@ function Juki() {
             isWithinWhiteCircle(redCircle) &&
             isOverlapping(yellowCircle, redCircle)
         ) {
-            setMessage("Yay!");
+            setMessage("Choose a fruit that is this color!");
+            setShowFruits(true);
         } else {
             setMessage("Show me what will happen if you mix those colors!");
+            setShowFruits(false);
+            setShowButton(false);
         }
+    };
+
+    const handleFruitClick = (fruit) => {
+        if (fruit === 'orange') {
+            setMessage("It's orange! Great job!");
+            setShowButton(true);
+        } else if (fruit === 'kiwi') {
+            setMessage("Try again!");
+        }
+    };
+
+    const handleButtonClick = () => {
+        setLocation('/choose');
     };
 
     return (
@@ -63,8 +86,24 @@ function Juki() {
 
             <div className="whiteCircle" ref={whiteCircleRef}></div>
 
-            <div className="board"></div>
-        </div>
+            {showFruits && (
+                <div>
+                    <img src={kiwi} alt="Kiwi" className="kiwi" onClick={() => handleFruitClick('kiwi')}/>
+                    <img src={orange} alt="Orange" className="orange" onClick={() => handleFruitClick('orange')}/>
+                </div>
+            )}
+
+            {showButton && (
+                <>
+                <div className="darkOverlay"></div>
+                <img src={tapButton} className="tapButton" onClick={handleButtonClick}/>
+                //make the screen darker
+                </>
+    )
+}
+
+    <div className="board"></div>
+</div>
     );
 }
 

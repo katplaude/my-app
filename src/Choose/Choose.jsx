@@ -13,15 +13,25 @@ function Choose() {
     const handleJukiClick = () => {
         setLocation('/juki');
     };
+    const handleNikiClick = () => {
+        setLocation('/niki');
+    };
+
+    const handleRobinClick = () => {
+        setLocation('/robin');
+    };
+    const handleParentsClick = () => {
+        setLocation('/parents');
+    };
 
     return (
         <div>
             <div>
                 <img className='mikaPfp' src={mikaPfp} alt="Mika Profile"/>
                 <img className='juki' src={juki} alt="Juki" onClick={handleJukiClick}/>
-                <img className='robin' src={robin} alt="Robin"/>
-                <img className='niki' src={niki} alt="Niki"/>
-                <img className='forParents' src={forParents} alt="forParents"/>
+                <img className='robin' src={robin} alt="Robin" onClick={handleRobinClick}/>
+                <img className='niki' src={niki} alt="Niki" onClick={handleNikiClick}/>
+                <img className='forParents' src={forParents} alt="forParents" onClick={handleParentsClick}/>
             </div>
 
             <div className='rectangles'>

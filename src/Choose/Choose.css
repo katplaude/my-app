@@ -66,6 +66,7 @@
     left: 9rem;
     top: 45.81rem;
     z-index: 1;
+    animation: bounce 1.5s infinite;
 }
 
 .robin {
@@ -75,6 +76,7 @@
     left: 41.19rem;
     top: 51.81rem;
     z-index: 1;
+    animation: bounce 1.5s infinite;
 }
 
 .niki {
@@ -84,6 +86,7 @@
     left: 5.88rem;
     top: 78.56rem;
     z-index: 1;
+    animation: bounce 1.5s infinite;
 }
 
 .forParents {
@@ -138,7 +141,7 @@
     width: 68.73rem;
     height: 59.77rem;
     left: 22.45rem;
-    top: 56.94rem;
+    top: 70.94rem;
     background: rgba(0, 0, 0, 0.4);
     border-radius: 28.13rem;
     transform: rotate(15.97deg);

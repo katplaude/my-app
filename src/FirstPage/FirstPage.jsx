@@ -1,4 +1,4 @@
-import helpIcon from "../assets/help-icon.svg";
+import helpIcon from "../assets/help.png";
 import './FirstPage.css'
 import badGuy from "../assets/badGuy.png"
 import mika from "../assets/mika.png"

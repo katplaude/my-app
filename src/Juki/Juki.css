@@ -47,10 +47,10 @@
 .whiteCircle {
     box-sizing: border-box;
     position: absolute;
-    width: 510px;
-    height: 510px;
-    left: 266px;
-    top: 1229px;
+    width: 31.88rem;
+    height: 31.88rem;
+    left: 16.63rem;
+    top: 76.81rem;
     z-index: 1;
     background: #FFFFFF;
     border: 1.875rem solid #D9D9D9;
@@ -73,7 +73,7 @@
     width: 40.63rem;
     height: 13.31rem;
     left: 6.63rem;
-    top: 19rem;
+    top: 20rem;
     text-align: left;
     font-family: 'Quicksand', sans-serif;
     font-style: normal;
@@ -82,4 +82,37 @@
     line-height: 3.75rem;
     color: #FFFFFF;
     z-index: 1;
+}
+
+.orange {
+    position: absolute;
+    width: 22.81rem;
+    height: 23.69rem;
+    left: 6.19rem;
+    top: 46.81rem;
+    z-index: 1;
+    animation: bounce 1.5s infinite;
+
+}
+
+.kiwi {
+    position: absolute;
+    width: 25.06rem;
+    height: 25rem;
+    left: 35rem;
+    top: 46.81rem;
+    z-index: 1;
+    animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-20px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
 }

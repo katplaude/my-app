@@ -1,0 +1,117 @@
+.robinPfp {
+    position: absolute;
+    width: 20.625rem;
+    height: 20.5rem;
+    left: 44.6875rem;
+    top: 6.75rem;
+}
+
+.circle1 {
+    position: absolute;
+    width: 30.3125rem;
+    height: 30.3125rem;
+    left: 2.25rem;
+    top: 41.4375rem;
+    border-radius: 360%;
+    background: #66BCEB;
+}
+
+.number1 {
+    position: fixed;
+    width: 5.125rem;
+    height: 10.75rem;
+    left: 8.25rem;
+    top: 36.0625rem;
+    font-family: 'Titan One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34.375rem;
+    line-height: 39.375rem;
+    color: #FFFFFF;
+    z-index: 1;
+}
+
+.number2 {
+    position: fixed;
+    width: 16.125rem;
+    height: 15.5rem;
+    left: 38.8125rem;
+    top: 36.0625rem;
+    font-family: 'Titan One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34.375rem;
+    line-height: 39.375rem;
+    color: #FFFFFF;
+    z-index: 1;
+}
+
+.circle2 {
+    position: absolute;
+    width: 31rem;
+    height: 31.3125rem;
+    left: 33.6875rem;
+    top: 41.4375rem;
+    border-radius: 360%;
+    background: #66BCEB;
+}
+
+.number3 {
+    position: fixed;
+    width: 5.125rem;
+    height: 10.75rem;
+    left: 22rem;
+    top: 70.8125rem;
+    font-family: 'Titan One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34.375rem;
+    line-height: 39.375rem;
+    color: #FFFFFF;
+    z-index: 1;
+}
+
+.circle3 {
+    position: absolute;
+    width: 31.6875rem;
+    height: 31.1875rem;
+    left: 16.6875rem;
+    top: 75.8125rem;
+    border-radius: 360%;
+    background: #66BCEB;
+}
+
+.drawingCanvas {
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.robinSpeechBox {
+    position: absolute;
+    width: 44.19rem;
+    height: 13.25rem;
+    left: 3.94rem;
+    top: 16.94rem;
+    background: #EF9636;
+    border-radius: 3.75rem;
+    z-index: 1;
+}
+
+.robinSpeech {
+    position: fixed;
+    width: 40.63rem;
+    height: 13.31rem;
+    left: 6.63rem;
+    top: 21.5rem;
+    text-align: left;
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 3.75rem;
+    color: #FFFFFF;
+    z-index: 1;
+}

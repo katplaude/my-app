@@ -1,0 +1,181 @@
+.mikaPfp {
+    position: absolute;
+    width: 20.625rem;
+    height: 20.5rem;
+    left: 44.6875rem;
+    top: 6.75rem;
+}
+
+.speechBox2 {
+    position: absolute;
+    width: 44.1875rem;
+    height: 14.8125rem;
+    left: 3.9375rem;
+    top: 16.9375rem;
+    z-index: 1;
+    background: #EF9636;
+    border-radius: 3.75rem;
+}
+
+.speech2 {
+    position: fixed;
+    width: 40.625rem;
+    height: 10.37875rem;
+    left: 6.625rem;
+    top: 18.546875rem;
+    text-align: left;
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.3125rem;
+    line-height: 2.875rem;
+    color: #FFFFFF;
+}
+
+.discount {
+    position: absolute;
+    width: 45.0625rem;
+    height: 8.375rem;
+    left: 11.1875rem;
+    top: 62rem;
+    font-family: 'Titan One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5.625rem;
+    line-height: 6.4375rem;
+    z-index: 1;
+    color: #EF9636;
+}
+
+.text1 {
+    position: absolute;
+    width: 34.3125rem;
+    height: 3.9375rem;
+    left: 16.5625rem;
+    top: 69.3125rem;
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.125rem;
+    line-height: 3.875rem;
+    z-index: 1;
+    color: #8355F5;
+}
+
+.text2 {
+    position: absolute;
+    width: 47.625rem;
+    height: 5.5rem;
+    left: 9.9375rem;
+    top: 76.125rem;
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4.375rem;
+    line-height: 5.5rem;
+    z-index: 1;
+    color: #EF9636;
+}
+
+.emailContainer {
+    position: absolute;
+    left: 11.625rem;
+    top: 83.8125rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.emailInput {
+    box-sizing: border-box;
+    width: 43.9375rem;
+    height: 7.875rem;
+    border: 0.625rem solid #66BCEB;
+    border-radius: 3.75rem;
+    padding: 1.25rem;
+    font-size: 1.25rem;
+    margin-right: 1.25rem;
+    z-index: 1;
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.125rem;
+    color: #8355F5;
+}
+
+.submit {
+    position: absolute;
+    width: 21.125rem;
+    height: 7.875rem;
+    left: 23.1875rem;
+    top: 94.75rem;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.parentsBoard {
+    position: absolute;
+    width: 59.75rem;
+    height: 73.1875rem;
+    left: 3.875rem;
+    top: 43.5625rem;
+}
+
+.checkEmail {
+    position: absolute;
+    width: 45.0625rem;
+    height: 8.375rem;
+    left: 11.1875rem;
+    top: 73.25rem;
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5.625rem;
+    line-height: 6.4375rem;
+    text-align: center;
+    color: #8355F5;
+    z-index: 2;
+}
+
+.backgroundVideo {
+    position: fixed;
+    width: 67.5rem;
+    height: 74.625rem;
+    left: 0;
+    top: -1.375rem;
+    object-fit: cover;
+    z-index: 0;
+    filter: brightness(60%);
+}
+
+.gradientOverlay {
+    position: fixed;
+    width: 67.5rem;
+    height: 56.25rem;
+    left: 0;
+    top: 18.75rem;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, #8C52FF 100%);
+    z-index: 0;
+}
+
+.playAgain {
+    position: absolute;
+    width: 24.5rem;
+    height: 7.875rem;
+    left: 21.875rem;
+    top: 91.75rem;
+    z-index: 1;
+}
+
+.logo1 {
+    position: absolute;
+    width: 25.875rem;
+    height: 11.9375rem;
+    left: 20.5rem;
+    top: 60rem;
+    z-index: 1;
+}
+
+.char-0 { color: #EF9636; }
+.char-1 { color: #66BCEB; }
+.char-2 { color: #8C52FF; }

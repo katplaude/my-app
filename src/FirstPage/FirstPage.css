@@ -103,10 +103,10 @@
 
 .helpIcon {
     position: absolute;
-    width: 50rem;
-    height: 29.53125rem;
-    left: 16.5625rem;
-    top: 5.03125rem;
+    width: 771px;
+    height: 380px;
+    left: 286px;
+    top: 136px;
     animation: bounce 1s infinite;
 }
 
